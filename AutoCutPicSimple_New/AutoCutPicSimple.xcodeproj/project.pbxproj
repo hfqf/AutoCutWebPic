@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DAC03A81AA356EF000C101E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03A71AA356EF000C101E /* main.m */; };
+		7DAC03AB1AA356EF000C101E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03AA1AA356EF000C101E /* AppDelegate.m */; };
+		7DAC03AE1AA356EF000C101E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03AD1AA356EF000C101E /* ViewController.m */; };
+		7DAC03B11AA356EF000C101E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC03AF1AA356EF000C101E /* Main.storyboard */; };
+		7DAC03B31AA356EF000C101E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC03B21AA356EF000C101E /* Images.xcassets */; };
+		7DAC03B61AA356EF000C101E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC03B41AA356EF000C101E /* LaunchScreen.xib */; };
+		7DAC03C21AA356F0000C101E /* AutoCutPicSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03C11AA356F0000C101E /* AutoCutPicSimpleTests.m */; };
+		7DAC03F41AA3575F000C101E /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03E61AA3575F000C101E /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DAC03F51AA3575F000C101E /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03E91AA3575F000C101E /* EGOImageButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DAC03F61AA3575F000C101E /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03EC1AA3575F000C101E /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DAC03F71AA3575F000C101E /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03EE1AA3575F000C101E /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DAC03F81AA3575F000C101E /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03F11AA3575F000C101E /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DAC03F91AA3575F000C101E /* EGOImageView+SetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC03F31AA3575F000C101E /* EGOImageView+SetImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DAC03BC1AA356F0000C101E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DAC039A1AA356EF000C101E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DAC03A11AA356EF000C101E;
+			remoteInfo = AutoCutPicSimple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D8E20B41AA720FB000EEC18 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7D8E20B51AA720FB000EEC18 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7DAC03A21AA356EF000C101E /* AutoCutPicSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCutPicSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAC03A61AA356EF000C101E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DAC03A71AA356EF000C101E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DAC03A91AA356EF000C101E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DAC03AA1AA356EF000C101E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DAC03AC1AA356EF000C101E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DAC03AD1AA356EF000C101E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DAC03B01AA356EF000C101E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DAC03B21AA356EF000C101E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DAC03B51AA356EF000C101E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7DAC03BB1AA356F0000C101E /* AutoCutPicSimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCutPicSimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAC03C01AA356F0000C101E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DAC03C11AA356F0000C101E /* AutoCutPicSimpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCutPicSimpleTests.m; sourceTree = "<group>"; };
+		7DAC03E51AA3575F000C101E /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		7DAC03E61AA3575F000C101E /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		7DAC03E81AA3575F000C101E /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
+		7DAC03E91AA3575F000C101E /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
+		7DAC03EB1AA3575F000C101E /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		7DAC03EC1AA3575F000C101E /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		7DAC03ED1AA3575F000C101E /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		7DAC03EE1AA3575F000C101E /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		7DAC03F01AA3575F000C101E /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		7DAC03F11AA3575F000C101E /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		7DAC03F21AA3575F000C101E /* EGOImageView+SetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EGOImageView+SetImage.h"; sourceTree = "<group>"; };
+		7DAC03F31AA3575F000C101E /* EGOImageView+SetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EGOImageView+SetImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DAC039F1AA356EF000C101E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAC03B81AA356F0000C101E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DAC03991AA356EF000C101E = {
+			isa = PBXGroup;
+			children = (
+				7DAC03A41AA356EF000C101E /* AutoCutPicSimple */,
+				7DAC03BE1AA356F0000C101E /* AutoCutPicSimpleTests */,
+				7DAC03A31AA356EF000C101E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DAC03A31AA356EF000C101E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03A21AA356EF000C101E /* AutoCutPicSimple.app */,
+				7DAC03BB1AA356F0000C101E /* AutoCutPicSimpleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DAC03A41AA356EF000C101E /* AutoCutPicSimple */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03A91AA356EF000C101E /* AppDelegate.h */,
+				7DAC03AA1AA356EF000C101E /* AppDelegate.m */,
+				7DAC03AC1AA356EF000C101E /* ViewController.h */,
+				7DAC03AD1AA356EF000C101E /* ViewController.m */,
+				7DAC03E21AA3575F000C101E /* AutoCutPic */,
+				7DAC03AF1AA356EF000C101E /* Main.storyboard */,
+				7DAC03B21AA356EF000C101E /* Images.xcassets */,
+				7DAC03B41AA356EF000C101E /* LaunchScreen.xib */,
+				7DAC03A51AA356EF000C101E /* Supporting Files */,
+			);
+			path = AutoCutPicSimple;
+			sourceTree = "<group>";
+		};
+		7DAC03A51AA356EF000C101E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03A61AA356EF000C101E /* Info.plist */,
+				7DAC03A71AA356EF000C101E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DAC03BE1AA356F0000C101E /* AutoCutPicSimpleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03C11AA356F0000C101E /* AutoCutPicSimpleTests.m */,
+				7DAC03BF1AA356F0000C101E /* Supporting Files */,
+			);
+			path = AutoCutPicSimpleTests;
+			sourceTree = "<group>";
+		};
+		7DAC03BF1AA356F0000C101E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03C01AA356F0000C101E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DAC03E21AA3575F000C101E /* AutoCutPic */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03F21AA3575F000C101E /* EGOImageView+SetImage.h */,
+				7DAC03F31AA3575F000C101E /* EGOImageView+SetImage.m */,
+				7DAC03E31AA3575F000C101E /* EGOImage */,
+			);
+			path = AutoCutPic;
+			sourceTree = "<group>";
+		};
+		7DAC03E31AA3575F000C101E /* EGOImage */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03E41AA3575F000C101E /* EGOCache */,
+				7DAC03E71AA3575F000C101E /* EGOImageButton */,
+				7DAC03EA1AA3575F000C101E /* EGOImageLoader */,
+				7DAC03EF1AA3575F000C101E /* EGOImageView */,
+			);
+			name = EGOImage;
+			path = EGOImageLoader;
+			sourceTree = "<group>";
+		};
+		7DAC03E41AA3575F000C101E /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03E51AA3575F000C101E /* EGOCache.h */,
+				7DAC03E61AA3575F000C101E /* EGOCache.m */,
+			);
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		7DAC03E71AA3575F000C101E /* EGOImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03E81AA3575F000C101E /* EGOImageButton.h */,
+				7DAC03E91AA3575F000C101E /* EGOImageButton.m */,
+			);
+			path = EGOImageButton;
+			sourceTree = "<group>";
+		};
+		7DAC03EA1AA3575F000C101E /* EGOImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03EB1AA3575F000C101E /* EGOImageLoadConnection.h */,
+				7DAC03EC1AA3575F000C101E /* EGOImageLoadConnection.m */,
+				7DAC03ED1AA3575F000C101E /* EGOImageLoader.h */,
+				7DAC03EE1AA3575F000C101E /* EGOImageLoader.m */,
+			);
+			path = EGOImageLoader;
+			sourceTree = "<group>";
+		};
+		7DAC03EF1AA3575F000C101E /* EGOImageView */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC03F01AA3575F000C101E /* EGOImageView.h */,
+				7DAC03F11AA3575F000C101E /* EGOImageView.m */,
+			);
+			path = EGOImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DAC03A11AA356EF000C101E /* AutoCutPicSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DAC03C51AA356F0000C101E /* Build configuration list for PBXNativeTarget "AutoCutPicSimple" */;
+			buildPhases = (
+				7DAC039E1AA356EF000C101E /* Sources */,
+				7DAC039F1AA356EF000C101E /* Frameworks */,
+				7DAC03A01AA356EF000C101E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCutPicSimple;
+			productName = AutoCutPicSimple;
+			productReference = 7DAC03A21AA356EF000C101E /* AutoCutPicSimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DAC03BA1AA356F0000C101E /* AutoCutPicSimpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DAC03C81AA356F0000C101E /* Build configuration list for PBXNativeTarget "AutoCutPicSimpleTests" */;
+			buildPhases = (
+				7DAC03B71AA356F0000C101E /* Sources */,
+				7DAC03B81AA356F0000C101E /* Frameworks */,
+				7DAC03B91AA356F0000C101E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DAC03BD1AA356F0000C101E /* PBXTargetDependency */,
+			);
+			name = AutoCutPicSimpleTests;
+			productName = AutoCutPicSimpleTests;
+			productReference = 7DAC03BB1AA356F0000C101E /* AutoCutPicSimpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DAC039A1AA356EF000C101E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "qq:553633471";
+				TargetAttributes = {
+					7DAC03A11AA356EF000C101E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7DAC03BA1AA356F0000C101E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7DAC03A11AA356EF000C101E;
+					};
+				};
+			};
+			buildConfigurationList = 7DAC039D1AA356EF000C101E /* Build configuration list for PBXProject "AutoCutPicSimple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DAC03991AA356EF000C101E;
+			productRefGroup = 7DAC03A31AA356EF000C101E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DAC03A11AA356EF000C101E /* AutoCutPicSimple */,
+				7DAC03BA1AA356F0000C101E /* AutoCutPicSimpleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DAC03A01AA356EF000C101E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAC03B11AA356EF000C101E /* Main.storyboard in Resources */,
+				7DAC03B61AA356EF000C101E /* LaunchScreen.xib in Resources */,
+				7DAC03B31AA356EF000C101E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAC03B91AA356F0000C101E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DAC039E1AA356EF000C101E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAC03F41AA3575F000C101E /* EGOCache.m in Sources */,
+				7DAC03F71AA3575F000C101E /* EGOImageLoader.m in Sources */,
+				7DAC03F81AA3575F000C101E /* EGOImageView.m in Sources */,
+				7DAC03AE1AA356EF000C101E /* ViewController.m in Sources */,
+				7DAC03AB1AA356EF000C101E /* AppDelegate.m in Sources */,
+				7DAC03F91AA3575F000C101E /* EGOImageView+SetImage.m in Sources */,
+				7DAC03F51AA3575F000C101E /* EGOImageButton.m in Sources */,
+				7DAC03A81AA356EF000C101E /* main.m in Sources */,
+				7DAC03F61AA3575F000C101E /* EGOImageLoadConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAC03B71AA356F0000C101E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAC03C21AA356F0000C101E /* AutoCutPicSimpleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DAC03BD1AA356F0000C101E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DAC03A11AA356EF000C101E /* AutoCutPicSimple */;
+			targetProxy = 7DAC03BC1AA356F0000C101E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DAC03AF1AA356EF000C101E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DAC03B01AA356EF000C101E /* Base */,
+				7D8E20B41AA720FB000EEC18 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DAC03B41AA356EF000C101E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DAC03B51AA356EF000C101E /* Base */,
+				7D8E20B51AA720FB000EEC18 /* zh-Hans */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DAC03C31AA356F0000C101E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DAC03C41AA356F0000C101E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DAC03C61AA356F0000C101E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoCutPicSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DAC03C71AA356F0000C101E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoCutPicSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DAC03C91AA356F0000C101E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoCutPicSimpleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCutPicSimple.app/AutoCutPicSimple";
+			};
+			name = Debug;
+		};
+		7DAC03CA1AA356F0000C101E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoCutPicSimpleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCutPicSimple.app/AutoCutPicSimple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DAC039D1AA356EF000C101E /* Build configuration list for PBXProject "AutoCutPicSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAC03C31AA356F0000C101E /* Debug */,
+				7DAC03C41AA356F0000C101E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DAC03C51AA356F0000C101E /* Build configuration list for PBXNativeTarget "AutoCutPicSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAC03C61AA356F0000C101E /* Debug */,
+				7DAC03C71AA356F0000C101E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DAC03C81AA356F0000C101E /* Build configuration list for PBXNativeTarget "AutoCutPicSimpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAC03C91AA356F0000C101E /* Debug */,
+				7DAC03CA1AA356F0000C101E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DAC039A1AA356EF000C101E /* Project object */;
+}
